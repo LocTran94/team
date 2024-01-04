@@ -1,0 +1,179 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.inner {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+
+
+.title__small{
+    color: #7EB693;
+    font-family: 'Yellowtail', cursive;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+
+.title__big{
+    color: #274C5B;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+
+.desc{
+    color: #525C60;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.772px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ourteam__banner {
+width: 100%;
+height: 450px;
+position: relative;
+}
+
+.ourteam__banner img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.ourteam__banner h1 {
+    font-size: 70px;
+    color: #274C5B;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.ourOrganicExperts {
+    padding: 150px 0 120px 0;
+}
+
+
+
+
+.ourOrganicExperts__heading {
+    width: 852px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 42px;
+}
+
+
+.ourOrganicExperts__heading h2{
+    margin-bottom: 16px;
+}
+
+
+
+.ourOrganicExperts__people {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 27px;
+    grid-row-gap: 42px;
+}
+
+
+
+.ourOrganicExperts__person {
+    width: 449px;
+    border-radius: 30px;
+}
+
+.ourOrganicExperts__person:hover {
+    box-shadow: 0px 29px 44px rgba(150, 150, 150, 0.25);
+}
+
+.ourOrganicExperts__person .ourOrganicExperts__person__info:hover {
+    background-color: #FFF;
+}
+
+
+
+.ourOrganicExperts__person__avt {
+    width: 100%;
+    height: 486px;
+    border:  30px;
+}
+
+
+
+.ourOrganicExperts__person__avt img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.ourOrganicExperts__person__info {
+    padding: 35px 28.74px 34px 28px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F9F8F8;
+    border-radius: 0 0 30px 30px;
+}
+
+
+
+.person__socials {
+    display: flex;
+    width: 104px;
+    margin-top: auto;
+}
+
+
+.person__socials__item {
+    margin-right: 17px;
+
+}
+
+.person__socials__item :last-child {
+    margin-right: 0;
+}
+
+
+.person__namejob p:first-child {
+    font-size: 25px;
+    color: #274C5B;
+    font-weight: bold;
+    margin-bottom: 2px;
+
+
+}
+
+.person__namejob p:last-child {
+    font-size: 22px;
+    color: #7EB693;
+    font-family: 'Yellowtail', cursive;
+
+}
